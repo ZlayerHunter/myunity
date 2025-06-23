@@ -14,9 +14,11 @@ public class PlayerController : MonoBehaviour
     private PlayerInputActions inputActions;
     private Vector2 movementInput;
     private bool isCrouch = false;
-
+    bool helloepte = true;
     private void Awake()
     {
+        print(helloepte);
+        if (helloepte) print("epte");
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         defaultSpeed = speed;
