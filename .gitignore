@@ -89,7 +89,6 @@ crashlytics-build.properties
 /.vscode/
 
 /Assets/Models/
-*.meta
 /Assets/Animations/
 /Assets/Audio/
 *.zip
